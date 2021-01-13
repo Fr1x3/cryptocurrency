@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.fr1x3.cryptocurrency.R
-import com.fr1x3.cryptocurrency.viewmodels.CryptoListViewModel
+import com.fr1x3.cryptocurrency.ui.viewmodels.CryptoListViewModel
 
 class CryptoListFragment : Fragment() {
 

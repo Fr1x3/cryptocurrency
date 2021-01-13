@@ -1,4 +1,4 @@
-package com.fr1x3.cryptocurrency.viewmodels
+package com.fr1x3.cryptocurrency.ui.viewmodels
 
 import androidx.lifecycle.ViewModel
 
