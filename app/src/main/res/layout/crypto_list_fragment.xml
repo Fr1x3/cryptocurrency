@@ -87,7 +87,7 @@
             <com.google.android.material.textview.MaterialTextView
                 style="@style/TableHeader"
                 android:layout_column="1"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:text="@string/name_title" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -99,7 +99,7 @@
             <com.google.android.material.textview.MaterialTextView
                 style="@style/TableHeader"
                 android:layout_column="3"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:text="@string/price_title" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -110,5 +110,17 @@
         </TableRow>
 
     </TableLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
