@@ -13,3 +13,7 @@ When the user opens the app, they should see a list of cryptocurrencies, and eac
     
  
  # Libraries used
+ - retrofit
+ - coroutines
+ - lifecycle viewmodel and livedata
+ 
